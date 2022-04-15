@@ -46,8 +46,9 @@ button{
 
 .searched_content{
     width: 100%;
-    display: flex;
-    justify-content: center;
+    isplay: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 15px;
     flex-wrap: warpper;
     padding: 10px;
     max-height: 80vh;
